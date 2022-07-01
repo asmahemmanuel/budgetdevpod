@@ -1,0 +1,27 @@
+
+.container {
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/23/15/31/man-1853545__340.jpg);
+    background-image: cross-fade(-10);
+    background-repeat: no-repeat, repeat;
+    background-position: justify;
+    background-size: cover;
+    padding-top: 50px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 100px;
+    border-radius: 40px;
+}
+
+.container h1, p {
+    background-color: #ffffff33;
+    padding: 20px;
+    color: rgb(255, 208, 0);
+}
+
+$light: rgba(255, 255, 255, 0.356);
+// $info: #555;
+// $primary: red;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
