@@ -36,10 +36,6 @@ export default function AddExpenseModal({
             <Form.Label>Description</Form.Label>
             <Form.Control ref={descriptionRef} type="text" required />
           </Form.Group>
-          <Form.Group className="mb-3" controlId="expense description">
-            <Form.Label>Expense Description</Form.Label>
-            <Form.Control ref={expensedescriptionRef} type="text" required />
-          </Form.Group>
           <Form.Group className="mb-3" controlId="amount">
             <Form.Label>Amount GHS</Form.Label>
             <Form.Control
