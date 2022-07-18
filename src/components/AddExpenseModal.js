@@ -8,7 +8,6 @@ export default function AddExpenseModal({
   defaultBudgetId,
 }) {
 
-  const expensedescriptionRef = useRef()
   const descriptionRef = useRef()
   const amountRef = useRef()
   const budgetIdRef = useRef()
